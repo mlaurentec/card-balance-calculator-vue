@@ -1,13 +1,14 @@
-import { createRouter, createMemoryHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import CalcularSaldo from '../views/CalcularSaldo.vue'
-import AlertView from '../views/AlertView.vue'
+import AlertView from "../views/AlertView.vue";
 
 
 const routes = [
     {
         path: '/',
-        name: 'home',
+        name: 'alert',
         component: AlertView
+
     },
 
     {
@@ -19,8 +20,8 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createMemoryHistory(process.env.BASE_URL),
-    routes
+    history: createWebHistory(),
+    routes:routes
 })
 
 export default router
