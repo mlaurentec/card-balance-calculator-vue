@@ -4,23 +4,23 @@ import AppBar from './components/AppBar.vue';
 
 <template>
   <v-app>
-  <AppBar/>
-   
-  <v-main class="principal">
-    <router-view/>
-  </v-main>  
-  
+    <AppBar/>
+    
+    <v-main class="principal">
+      <router-view/>
+    </v-main>  
+    
   <v-navigation-drawer class="br-teal-darken-4" theme="dark" permanent>
     <v-list-item
     link 
-    to="/"
+    to="/card-balance-calculator-vue/"
     title="Alert"
     prepend-icon="mdi-grid">
     
     </v-list-item>
     <v-list-item
     link 
-    to="/calcular"
+    to="/card-balance-calculator-vue/calcular"
     title="Calcular saldo"
     prepend-icon="mdi-grid">
     

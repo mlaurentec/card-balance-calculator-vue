@@ -5,7 +5,7 @@ import AlertView from "../views/AlertView.vue";
 
 const routes = [
     {
-        path: '/',
+        path: '/card-balance-calculator-vue/',
         name: 'alert',
         component: AlertView
 
@@ -13,7 +13,7 @@ const routes = [
 
     {
         
-        path: '/calcular',
+        path: '/card-balance-calculator-vue/calcular',
         name: 'calcular',
         component: CalcularSaldo
     }
