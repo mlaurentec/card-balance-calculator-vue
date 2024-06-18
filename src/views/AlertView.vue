@@ -43,7 +43,6 @@ const saldo = ref(0.00);
 const tarifa = 1.50;
 
 let fechaActual = new Date()
-console.log(fechaActual);
 
 const calcularDias = () => {
   let fechaActual = new Date();
